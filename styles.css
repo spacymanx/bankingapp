@@ -1,0 +1,396 @@
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+h2{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+h3{
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  font-kerning: 2px;
+  text-decoration: none;
+}
+
+#card_number{
+  font-size: 15px !important;
+}
+
+#card_body{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #e6e8ec;
+}
+
+.screen{
+  border-radius: 24px;
+  width: 300px;
+  height: 640px;
+  background-color: #f8f8f8;
+}
+
+.screen_content{
+  padding: 5px 20px 5px 20px;
+}
+
+/*header style*/
+h1{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+img.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.header {
+  flex-direction: row;
+  display: flex;
+  padding: 20px 22px 25px 22px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*active card section style*/
+.card_display{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active_card{
+  background-color: #141318;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  width: 207px;
+  height: 144px;
+  box-shadow: 0px 5px 8px rgba(0,0,0,0.3);
+}
+
+.card_content{
+  padding: 20px 15px;
+}
+
+.card_text{
+  color: #fdfdfd;
+}
+
+h5{
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 10px;
+}
+
+
+.header_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 8px;
+}
+
+
+
+#Visa{
+  height: 20px;
+}
+
+h6{
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h7{
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 8px;
+  color: #bd93b4;
+}
+
+h4{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 8px;
+}
+
+
+.add_card{
+  margin-left: 10px;
+  border-style: dashed;
+  border-color: #a0a0a0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+}
+
+#plus{
+  height: 16px;
+  width: 16px;
+  padding: 0px 10px;
+}
+
+/*action button section*/
+.action_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.action_buttons .button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+}
+
+.action_buttons .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.action_buttons .button.transfer{
+  background-color: #f7c463;
+  text-decoration: none;  
+  color: #000;  
+}
+
+.button:hover{
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.action_buttons .button.request{
+  background-color: #b1deb6;
+}
+
+#transfer{
+  width: 25px;
+  height: 25px;
+}
+
+#request{
+  width: 25px;
+  height: 25px;
+}
+
+
+/*transactions*/
+
+.transfer{
+  gap: 20px;
+}
+.transaction_header{
+  padding-top: 20px;
+  display: flex;
+  align-items: end;
+  padding-bottom: 5px;
+}
+
+.transactions_wrap{
+  margin: 10px 0;
+  background-color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.transactions_wrap:hover{
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.08);
+}
+
+.transaction_textwrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.transaction_button{
+  justify-content: space-between;
+}
+
+.transaction_button:hover{
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.header_transaction{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon_transaction{
+  margin: 5px 10px;
+  padding: 3px;
+  scale: 1.2;
+}
+.icon_transaction #dribble{
+  background-color: #f2bbe6;
+  border-radius: 10px;
+}
+
+.icon_transaction #snapchat{
+  background-color: #fac865;
+  border-radius: 10px;
+}
+
+.icon_transaction #skype{
+  background-color: #b6c9ed;
+  border-radius: 10px;
+}
+
+.transaction_scroll{
+  height: 230px;
+  overflow: auto;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+.income{
+  padding-bottom: 20px;
+}
+.transaction_scroll::-webkit-scrollbar{
+  display: none;
+}
+
+.nav_footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.scan_icon{
+  background-color: #141318;
+  border-radius: 50px;
+  padding: 4px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+
+.nav_icon{
+  scale: 0.9;
+}
+
+.action_buttons .button.transfer a {
+  text-decoration: none;  /* Remove the underline */
+  color: inherit;         /* Ensure the text color is inherited from the parent */
+}
+
+/* Optionally: remove the color change when hovering over the link */
+.action_buttons .button.transfer a:hover {
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+

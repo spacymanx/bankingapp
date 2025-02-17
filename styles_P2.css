@@ -1,0 +1,133 @@
+.screen_content{
+  padding: 5px 20px 5px 20px;
+}
+
+
+
+.header_p2 {
+  flex-direction: row;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 65%;
+}
+
+.transfer{
+  gap: 50px;
+}
+.transfer_amount h8{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.transfer_button{
+  background-color: #ffffff;
+  padding: 5px 0px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+
+
+.transfer_button:hover{
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.transfer_wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+.icon_transfer{
+  margin: 5px 10px;
+  padding: 3px;
+  scale: 1.2;
+}
+
+.icon_transfer #emoji{
+  background-color: #b1deb6;
+  border-radius: 10px;
+}
+
+.icon_transfer #movie{
+  background-color: #fac765;
+  border-radius: 10px;
+}
+
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: repeat(4, 1fr);    /* 4 rows */
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.key{
+  background-color: transparent;
+  border: none;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+/* Special styles for "0" and back arrow */
+.zero {
+  grid-column: 2; /* Center "0" in the middle column */
+}
+
+.back {
+  grid-column: 3; /* Place back arrow button in the third column */
+}
+
+h9{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 10px;
+  
+}
+
+.sendmoney_button{
+  align-items: center;
+}
+
+.sendmoney_button{
+  background-color: #141318;
+  padding: 5px 0px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
